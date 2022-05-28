@@ -27,7 +27,7 @@ class ViewController: NSViewController {
         
         view.alphaValue = 0
         
-        let url = URL(string: "https://music.youtube.com")!
+        let url = URL(string: "https://youtube.com")!
         let request = URLRequest(url: url)
         webView.load(request)
         
